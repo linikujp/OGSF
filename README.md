@@ -11,7 +11,7 @@ Genetic susceptibility, also called genetic predisposition, is an increased like
 
 ==download OGSF==
 
-OGSF is available by [https://code.google.com/p/ogsf/source/checkout svn checkout], or open from URI in protege here: [http://ogsf.googlecode.com/svn/trunk/src/ogsf-merged.owl].
+OGSF can be opened in protege using here: [owl].
 It is *recommended* to use check out to see the imported portion of other ontologies in OGSF.
 
 ==Publication==
