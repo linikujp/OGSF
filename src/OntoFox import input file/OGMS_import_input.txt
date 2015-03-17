@@ -1,0 +1,25 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ogsf/OGMS_import.owl
+
+[Source ontology]
+OGMS
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OGMS_0000061 #pathological bodily process (OGMS)
+http://purl.obolibrary.org/obo/OGMS_0000033 #genetic predisposition to disease of type X (OGMS)
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OGMS_0000061 #pathological bodily process (OGMS)
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015
+http://purl.obolibrary.org/obo/OGMS_0000033 #genetic predisposition to disease of type X (OGMS)
+subClassOf http://purl.obolibrary.org/obo/OGSF_0000000
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+
+

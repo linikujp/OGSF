@@ -1,0 +1,34 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ogfs/OBI_import.owl
+
+[Source ontology]
+OBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+http://purl.obolibrary.org/obo/OBI_0000066 #investigation
+http://purl.obolibrary.org/obo/OBI_0000174 #study group role
+http://purl.obolibrary.org/obo/OBI_0000181 #population
+http://purl.obolibrary.org/obo/OBI_0200000 #data transformation
+http://purl.obolibrary.org/obo/OBI_0000097 #study subject role
+http://purl.obolibrary.org/obo/OBI_0000175 #p-value
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OBI_0000066 #investigation
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015
+http://purl.obolibrary.org/obo/OBI_0000174 #study group role
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023
+http://purl.obolibrary.org/obo/OBI_0000181 #population
+subClassOf http://purl.obolibrary.org/obo/BFO_0000027
+http://purl.obolibrary.org/obo/OBI_0000175 #p-value
+subClassOf http://purl.obolibrary.org/obo/IAO_0000027
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]

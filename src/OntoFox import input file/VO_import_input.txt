@@ -1,0 +1,40 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ogsf/VO_import.owl
+
+[Source ontology]
+VO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/VO_0000001 #vaccine (VO)
+http://purl.obolibrary.org/obo/VO_0000002 #vaccination
+http://purl.obolibrary.org/obo/VO_0000771 #BCG vaccine (VO)
+http://purl.obolibrary.org/obo/VO_0000179 #vaccine component (VO)
+http://purl.obolibrary.org/obo/VO_0000576 #thimerosal vaccine preservative (VO)
+http://purl.obolibrary.org/obo/CHEBI_9546 #thimerosal (VO)
+http://purl.obolibrary.org/obo/VO_0000851 #vaccine preservative (VO)
+http://purl.obolibrary.org/obo/VO_0000850 #vaccine additive (VO)
+http://purl.obolibrary.org/obo/VO_0000884 #aluminum vaccine adjuvant (VO)
+http://purl.obolibrary.org/obo/VO_0000410 #Pandemrix
+http://purl.obolibrary.org/obo/VO_0000651 #Smallpox virus vaccine
+http://purl.obolibrary.org/obo/VO_0001375 #vaccinee
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/VO_0000179 #vaccine component (VO)
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+http://purl.obolibrary.org/obo/VO_0000576 #thimerosal vaccine preservative (VO)
+subClassOf http://purl.obolibrary.org/obo/VO_0000851
+http://purl.obolibrary.org/obo/VO_0000850 #vaccine additive (VO)
+subClassOf http://purl.obolibrary.org/obo/VO_0000179 #vaccine component (VO)
+http://purl.obolibrary.org/obo/VO_0000851 #vaccine preservative (VO)
+subClassOf http://purl.obolibrary.org/obo/VO_0000850 #vaccine additive (VO)
+http://purl.obolibrary.org/obo/VO_0000771 #BCG vaccine (VO)
+subClassOf http://purl.obolibrary.org/obo/VO_0000001
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]

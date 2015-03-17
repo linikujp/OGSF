@@ -1,0 +1,26 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ogfs/ERO_import.owl
+
+[Source ontology]
+ERO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/ERO_0000348 #case-only study
+http://purl.obolibrary.org/obo/ERO_0000019 #genome wide association study
+http://purl.obolibrary.org/obo/ERO_0000016 #clinical trial
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/ERO_0000348 #case-only study
+subClassOf http://purl.obolibrary.org/obo/OBI_0000066
+http://purl.obolibrary.org/obo/ERO_0000019 #genome wide association study
+subClassOf http://purl.obolibrary.org/obo/OGSF_0000017
+http://purl.obolibrary.org/obo/ERO_0000016 #clinical trial
+subClassOf http://purl.obolibrary.org/obo/OBI_0000066
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]
