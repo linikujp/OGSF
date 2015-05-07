@@ -1,5 +1,5 @@
 # OGSF
-Ontology for Genetic Susceptibility Factor
+
 
 #### Ontology for Genetic Susceptibility Factor 
 
